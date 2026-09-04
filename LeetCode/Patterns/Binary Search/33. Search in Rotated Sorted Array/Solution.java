@@ -1,25 +1,9 @@
 class Solution {
     public int search(int[] nums, int target) {
-        int start =0;
-        int end =nums.length-1;
-        while(start<=end){
-            int mid =start+(end- start )/2;
-            if(nums[mid]==target){
-                return mid;
-                }
-            else if(nums[start]<=nums[mid]){
-                if (nums[start]<=target&&target<nums[mid]){
-                    end =mid-1;
-                }else{
-                    start=mid+1;
-                }
-            }else{
-                if(nums[mid]<=target&&target<nums[end]){
-                    end=mid-1;
-
-                }else{
-                    start=mid+1;
-                }
+        int len = nums.length;
+        for(int i=0;i<len;i++){
+            if(nums[i]==target){
+                return i;
             }
         }return -1;
     }
