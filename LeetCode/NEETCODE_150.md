@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 5 / 150 (3.3%)
+- **Completed:** 6 / 150 (4.0%)
 
 ---
 
@@ -12,7 +12,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 ### 📂 Arrays & Hashing
 - [ ] Contains Duplicate
 - [ ] Valid Anagram
-- [ ] Two Sum
+- [x] [Two Sum](./Java/Easy/1. Two Sum/)
 - [x] [Group Anagrams](./Java/Medium/49. Group Anagrams/)
 - [ ] Top K Frequent Elements
 - [ ] Product of Array Except Self
