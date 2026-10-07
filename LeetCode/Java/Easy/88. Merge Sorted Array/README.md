@@ -1,6 +1,6 @@
 # 📝 88. Merge Sorted Array (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/merge-sorted-array/?envType=problem-list-v2&envId=two-pointers)
+🔗 [Problem Link](https://leetcode.com/problems/merge-sorted-array/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Two Pointers, Sorting
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 4 ms
+- **Memory:** 43.9 MB
 
 ---
 
