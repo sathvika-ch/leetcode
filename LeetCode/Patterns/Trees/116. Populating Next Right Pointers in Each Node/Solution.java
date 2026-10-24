@@ -27,16 +27,15 @@ class Solution {
             return null;
         }
 
-        Queue<Node> queue = new LinkedList<>();
-        queue.offer(root);
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
 
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-
+        while (!q.isEmpty()) {
+            int size = q.size();
             Node prev = null;
 
             for (int i = 0; i < size; i++) {
-                Node curr = queue.poll();
+                Node curr = q.poll();
 
                 if (prev != null) {
                     prev.next = curr;
@@ -45,17 +44,17 @@ class Solution {
                 prev = curr;
 
                 if (curr.left != null) {
-                    queue.offer(curr.left);
+                    q.add(curr.left);
                 }
 
                 if (curr.right != null) {
-                    queue.offer(curr.right);
+                    q.add(curr.right);
                 }
             }
         }
 
         return root;
-
+    
         
     }
 }
